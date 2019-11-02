@@ -5,6 +5,7 @@ class Root extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'music',
       onGenerateRoute:router.generateRoute ,
       initialRoute: HomeRoute,
